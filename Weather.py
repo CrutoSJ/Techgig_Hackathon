@@ -4,7 +4,7 @@ import Confidential
 from prettytable import PrettyTable
 from colorama import Fore, Style
 
-def get_weather(city):
+def get_weather(city): # used github copilot 
     api_key = Confidential.API_KEY
     base_url = f'http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}'
     response = requests.get(base_url)
@@ -25,7 +25,7 @@ def get_weather(city):
             
             table = PrettyTable()
             table.field_names = [Fore.BLUE + "City" + Style.RESET_ALL, Fore.YELLOW + "Temperature (°C)" + Style.RESET_ALL, Fore.GREEN + "Humidity (%)" + Style.RESET_ALL, Fore.CYAN + "Description" + Style.RESET_ALL, Fore.MAGENTA + "Wind Speed (m/s)" + Style.RESET_ALL, Fore.WHITE + "Visibility (km)" + Style.RESET_ALL]
-            table.add_row([city, "{:.2f}".format(temperature), humidity, description, wind_speed, "{:.2f}".format(visibility)])  
+            table.add_row([city, "{:.2f}".format(temperature), humidity, description, wind_speed, "{:.2f}".format(visibility)])  # used Github Copilot
 
             
             table.border = True
