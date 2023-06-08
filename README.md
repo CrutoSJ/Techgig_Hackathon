@@ -17,7 +17,7 @@ This command-line tool accepts a city's name as input and returns the current we
 
 1. Clone the repository:
    ```shell
-   git clone https://github.com/CrutoSJ/Techgig_Hackathon
+   git clone https://github.com/CrutoSJ/Techgig_Hackathon.git
 
 2. Install the required dependencies:
 - pip install -r requirements.txt
