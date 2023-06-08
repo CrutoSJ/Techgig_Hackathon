@@ -44,11 +44,12 @@ This command-line tool accepts a city's name as input and returns the current we
 
 Enter the city name: New York
 
-+---------+-------------------+--------------+----------------+-------------------+------------------+
-| City    | Temperature (°C)  | Humidity (%) | Description    | Wind Speed (m/s) | Visibility (km)  |
-+---------+-------------------+--------------+----------------+-------------------+------------------+
-| New York| 20.53             | 70           | Partly cloudy  | 5.26              | 16.09            |
-+---------+-------------------+--------------+----------------+-------------------+------------------+
+- City: New York
+- Temperature (°C): 20.53
+- Humidity (%): 70
+- Description:  Partly cloudy
+- Wind Speed (m/s): 5.26
+- Visibility (km): 16.09
 
 ## License
 
