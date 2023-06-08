@@ -20,7 +20,7 @@ This command-line tool accepts a city's name as input and returns the current we
    git clone https://github.com/CrutoSJ/Techgig_Hackathon.git
 
 2. Install the required dependencies:
-- pip install -r requirements.txt
+- `pip install -r requirements.txt`
 
 3. Set up OpenWeatherMap API Key:
 
@@ -28,13 +28,13 @@ This command-line tool accepts a city's name as input and returns the current we
 - Create a file named Confidential.py in the same directory as the script.
 - Add the following line to Confidential.py, replacing YOUR_API_KEY with your actual API key:
 
-   - API_KEY = "YOUR_API_KEY"
+   - `API_KEY = "YOUR_API_KEY"`
 
 ## Usage
 
 1. Run the script:
 
- - python weather_forecast.py
+ - `python weather_forecast.py`
 
 2. Enter the name of the city for which you want to retrieve the weather forecast when prompted.
 
@@ -42,14 +42,14 @@ This command-line tool accepts a city's name as input and returns the current we
 
 - Example Output: 
 
-Enter the city name: New York
+`Enter the city name: New York`
 
-- City: New York
-- Temperature (°C): 20.53
-- Humidity (%): 70
-- Description:  Partly cloudy
-- Wind Speed (m/s): 5.26
-- Visibility (km): 16.09
+- `City: New York`
+- `Temperature (°C): 20.53`
+- `Humidity (%): 70`
+- `Description:  Partly cloudy`
+- `Wind Speed (m/s): 5.26`
+- `Visibility (km): 16.09`
 
 ## License
 
