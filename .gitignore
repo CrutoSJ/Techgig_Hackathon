@@ -2,6 +2,8 @@
 __pycache__/
 *.py[cod]
 *$py.class
+*.Confidentail
+*.Confidentail.py
 
 # C extensions
 *.so
@@ -153,7 +155,7 @@ dmypy.json
 cython_debug/
 
 # contains API
-.Confidential.py
+.Confidentail
 
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
