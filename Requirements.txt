@@ -1,0 +1,5 @@
+# These are the requirements based on the imports
+
+colorama==0.4.4
+prettytable==2.2.0
+requests==2.26.0
